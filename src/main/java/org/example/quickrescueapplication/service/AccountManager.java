@@ -41,6 +41,4 @@ public interface AccountManager {
      */
     public List<Account> getAll();
 
-
-
 }

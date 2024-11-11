@@ -8,11 +8,15 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * This interface is used to manage the account repository
+ */
 @Service
 public class AccountRepositoryServiceImpl implements AccountRepositoryService{
 
     @Autowired
     private AccountRepository accountRepository;
+
 
     /**
      * This method is used to create an account
